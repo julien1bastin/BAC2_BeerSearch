@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include ../parties/head %>
+        <meta name="author" content="François Duchêne">
+        <title>BeerSearch - Inscription</title>
+    </head>
+    <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <% include ../parties/nav %>
+        </div>
+      </nav>
+      <div class="container">
+        <form class="form-signin" id="SignIn" action="/sendSignIn" method="post">
+          <h2 class="form-signin-heading">S'inscrire</h2>
+          <fieldset>
+            <legend>Informations personnelles</legend>
+            <label for="inputPseudo" class="sr-only">Pseudonyme</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Nom" required>
+            <label for="inputAdresse" class="sr-only">Adresse</label>
+            <input type="text" id="inputAdresse" name="adress" class="form-control" placeholder="Adresse">
+            <label for="inputPays" class="sr-only">Pays</label>
+            <input type="text" id="inputPays" name="country" class="form-control" placeholder="Pays">
+          </fieldset>
+          <fieldset>
+            <legend>Informations de connexion</legend>
+            <label for="inputEmail" class="sr-only">Adresse Mail</label>
+            <input type="email" id="inputEmail" class="form-control" name="email" placeholder="Adresse Mail" required autofocus>
+            <label for="inputPassword" class="sr-only">Mot de passe</label>
+            <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Mot de Passe" required>
+          </fieldset>
+          <fieldset>
+            <legend>Informations banquaires</legend>
+            <label for="inputPassword" class="sr-only">Informations banquaires</label>
+            <input type="text" id="inputCoordBanq" name="coordBank" class="form-control" placeholder="Coordonnées banquaires" required>
+            <label for="inputSolde" class="sr-only">Solde du compte</label>
+            <div class="input-group">
+              <div class="input-group-addon">€</div>
+              <input type="number" id="inputSolde" name="balance" class="form-control" placeholder="Solde" required>
+            </div>
+          </fieldset>
+          <button class="btn btn-lg btn-primary btn-block" type="reset">Réinitialiser</button>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">S'inscrire !</button>
+        </form>
+      </div> <!-- /container -->
+      <% include ../parties/scripts %>
+    </body>
+</html>

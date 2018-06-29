@@ -1,0 +1,362 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Louvain-la-Neuve",
+        "housenumber": "23",
+        "postcode": "1348",
+        "street": "Rue Rabelais",
+        "amenity": "pub",
+        "name": "La Galoute",
+        "outdoor_seating": "yes",
+        "phone" : "010 45 13 81",
+        "website": "https://www.lagaloute.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6132895,
+          50.6691551
+        ]
+      }
+    },
+    {
+			"type" : "Feature",
+			"properties" : {
+				"name" : "Dude!",
+        "city": "Louvain-la-Neuve",
+        "housenumber": "3",
+        "housenumberannexe": "a",
+        "postcode": "1348",
+        "street": "Place des Sciences",
+				"phone" : "010 45 35 78"
+			},
+      "geometry" : {
+				"type" : "Point",
+				"coordinates" : [4.619107,50.668241]
+			}
+		},
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Louvain-la-Neuve",
+        "housenumber": "30",
+        "postcode": "1348",
+        "street": "Place Rabelais",
+        "amenity": "pub",
+        "food": "yes",
+        "name": "Le Rabelais",
+        "old_name": "Le Papillon",
+        "phone" : "010 45 29 60",
+        "wheelchair": "yes",
+        "site" : "https://www.lerabelais.be/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6131044,
+          50.6688545
+        ]
+      }
+    },
+    {
+			"type" : "Feature",
+			"properties" : {
+				"name" : "Le Decorhum",
+        "city": "Ottignies-Louvain-la-Neuve",
+        "housenumber": "4",
+        "postcode": "1348",
+        "street": "Rue Paulin Ladeuze",
+				"site" : "https://www.facebook.com/decorhum/"
+			},
+      "geometry" : {
+				"type" : "Point",
+				"coordinates" : [4.610846,50.670668]
+			}
+		},
+    {
+			"type" : "Feature",
+			"properties" : {
+				"name" : "MAF-Sporkot",
+        "city": "Ottignies-Louvain-la-Neuve",
+        "postcode": "1348",
+        "street": "Voie Cardijn",
+				"site" : "https://www.facebook.com/groups/481903058500416/"
+			},
+      "geometry" : {
+				"type" : "Point",
+				"coordinates" : [4.609762,50.671158]
+			}
+		},
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "pub",
+        "food": "yes",
+        "name": "Le Cambridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6133807,
+          50.6691282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "pub",
+        "food": "yes",
+        "name": "Le Grand-Place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6123319,
+          50.6694019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "pub",
+        "description": "Irish pub",
+        "name": "Le Beckett's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6113353,
+          50.6691353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Ottignies-Louvain-la-Neuve",
+        "country": "Belgique",
+        "housenumber": "8",
+        "postcode": "1348",
+        "street": "Rue Paulin Ladeuze",
+        "amenity": "bar",
+        "name": "Wax Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6117886,
+          50.669873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Ottignies-Louvain-la-Neuve",
+        "country": "Belgique",
+        "postcode": "1348",
+        "street": "Place de l'Université",
+        "amenity": "pub",
+        "name": "Knokke Out",
+        "phone" : "010 45 55 55",
+        "site" : "http://www.knokkeout.com/",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6151094,
+          50.6696506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "pub",
+        "food": "yes",
+        "name": "Les Halles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6163217,
+          50.6692192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "pub",
+        "food": "yes",
+        "name": "Onlywood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6167376,
+          50.6686535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Louvain-la-neuve",
+        "country": "Belgique",
+        "housenumber": "4",
+        "postcode": "1348",
+        "street": "Place des Brabançons",
+        "amenity": "pub",
+        "food": "no",
+        "microbrewery": "yes",
+        "name": "Brasse-Temps",
+        "operator": "Brasserie Dubuisson",
+        "phone": "+32 (0)10 45 70 27",
+        "website": "https://dubuisson.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6165215,
+          50.6685485
+        ]
+      }
+    },
+    {
+			"type" : "Feature",
+			"properties" : {
+				"name" : "Cercle Industriel",
+        "city": "Louvain-la-neuve",
+        "country": "Belgique",
+        "housenumber": "4",
+        "postcode": "1348",
+        "street": "Ruelle Saint-Éloi",
+				"site" : "http://www.cercle-industriel.be/"
+			},
+      "geometry" : {
+				"type" : "Point",
+				"coordinates" : [4.617583,50.668309]
+			}
+		},
+    {
+			"type" : "Feature",
+			"properties" : {
+				"name" : "Maison des Sciences",
+        "city": "Louvain-la-neuve",
+        "country": "Belgique",
+        "housenumber": "70",
+        "postcode": "1348",
+        "street": "Place des Wallons",
+				"site" : "http://www.sites-test.uclouvain.be/"
+			},
+      "geometry" : {
+				"type" : "Point",
+				"coordinates" : [4.618420,50.668417]
+			}
+		},
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Louvain-la-Neuve",
+        "country": "Belgique",
+        "housenumber": "6",
+        "housenumberannexe": "A",
+        "postcode": "1348",
+        "street": "Place des Brabançons",
+        "amenity": "pub",
+        "food": "yes",
+        "name": "Altérez-vous",
+        "opening_hours": "Mo-Sa 11:30-00:00",
+        "outdoor_seating": "yes",
+        "phone": "+32 10 84 40 03",
+        "website": "http://www.alterezvous.be",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6161033,
+          50.6683696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "pub",
+        "name": "À La Chope"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5995784,
+          50.6658719
+        ]
+      }
+    },
+    {
+			"type" : "Feature",
+			"properties" : {
+				"name" : "Vintage Bar",
+        "city": "Louvain-La-Neuve",
+        "postcode": "1348",
+				"street" : "Grand-Rue",
+				"phone" : "010 68 14 34",
+				"site" : "http://www.estaminetsportif.be/"
+			},
+      "geometry" : {
+				"type" : "Point",
+				"coordinates" : [
+          4.614569,
+          50.669340
+        ]
+			}
+		},
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Louvain-la-Neuve",
+        "postcode": "1348",
+        "street": "Grand'Rue",
+        "housenumber": "5",
+        "amenity": "pub",
+        "name": "Beer Bar",
+        "phone" : "010 24 58 38",
+        "outdoor_seating": "yes",
+        "website": "http://www.beer-bar.be/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.613704,
+          50.6691429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Louvain-La-Neuve",
+        "housenumber": "39",
+        "postcode": "1348",
+        "street": "Grand Place",
+        "amenity": "pub",
+        "name": "Chez Augustin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6113014,
+          50.6696924
+        ]
+      }
+    }
+  ]
+}

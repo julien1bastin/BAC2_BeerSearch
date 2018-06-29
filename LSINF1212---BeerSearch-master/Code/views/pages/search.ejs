@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../parties/head %>
+  <meta name="author" content="François Duchêne">
+  <title>BeerSearch - Recherche</title>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <% include ../parties/nav %>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="./RechercheBieres.html">Recherche bière</a></li>
+          <li><a href="./PDV.html">Points de ventes</a></li>
+          <li><a href="./Commander.html">Commander une bière</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <% if(isLog) { %>
+          <button type="button" class="btn btn-default navbar-btn" onclick="location.href='./Profile.html'">Bonjour <%=nom%></button>
+          <button type="button" class="btn btn-default navbar-btn" onclick="location.href='./deconnexion.html'">Se déconnecter</button>
+        <% }else{ %>
+          <button type="button" class="btn btn-default navbar-btn" onclick="location.href='./Login.html'">Se connecter</button>
+          <button type="button" class="btn btn-default navbar-btn" onclick="location.href='./SignIn.html'">S'inscrire</button>
+        <% } %>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+  <header>
+    <div class="container">
+      <div class="starter-template">
+        <h1> Résultat de la recherche</h1>
+      </div>
+    </div>
+  </header>
+  <h1>Bières</h1>
+    <ul class="list-unstyled" id="Bieres">
+    <% Bieres.forEach(function(biere){ %>
+      <li class="listBie">
+        Nom: <%= biere.Bières %> - Degré d'alcool: <%= biere.Degree %> - Type: <%= biere.Type %>
+        <% if(isLog){ %>
+          <a id="lienCom" href='Commander.html?id=<%= biere.id %>'>Commander</a>
+        <% } %>
+
+      </li>
+    <% }) %>
+    </ul>
+
+    <footer class="footer">
+      <% include ../parties/footer %>
+    </footer>
+    <% include ../parties/scripts %>
+</body>
+</html>
